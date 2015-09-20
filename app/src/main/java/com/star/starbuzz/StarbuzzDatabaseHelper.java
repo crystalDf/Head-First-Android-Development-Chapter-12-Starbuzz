@@ -9,8 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "starbuzz";
-    private static final int DB_VERSION = 1;
-
+    private static final int DB_VERSION = 2;
 
     public static final String TABLE_DRINK = "DRINK";
     public static final String COLUMN_ID = "_id";
@@ -27,7 +26,6 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
 
     private static final String ALTER_TABLE_DRINK = "ALTER TABLE " + TABLE_DRINK +
             " ADD COLUMN " + COLUMN_FAVORITE + " NUMERIC;";
-
 
     public StarbuzzDatabaseHelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);

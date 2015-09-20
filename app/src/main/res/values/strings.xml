@@ -12,4 +12,6 @@
     </string-array>
     <string name="title_activity_drink_category">DrinkCategoryActivity</string>
     <string name="title_activity_drink">DrinkActivity</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorites">Your favorite drinks:</string>
 </resources>
